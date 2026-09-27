@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dhanu | Graphic Designer & Video Editor</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="logo.png">
+  <link rel="apple-touch-icon" href="logo.png">
+
+  <!-- Google Fonts & Font Awesome Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Menghubungkan ke File CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Ambient Glow Effects -->
+  <div class="ambient-glow glow-blue"></div>
+  <div class="ambient-glow glow-purple"></div>
+  <div class="ambient-glow glow-green"></div>
+
+  <!-- Header Navigasi -->
+  <header>
+    <div class="nav-container">
+      <a href="#home" class="brand-logo">
+        DHANU<span> STUDIO</span>
+        <span class="badge-creative">Dhanu Studio Web</span>
+      </a>
+
+      <!-- Tombol Hamburger Mobile -->
+      <button class="mobile-toggle" id="menuToggle" aria-label="Toggle Menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <nav id="navMenu">
+        <ul>
+          <li><a href="#home" class="nav-link active"><i class="fa-solid fa-house"></i> Beranda</a></li>
+          <li><a href="#about" class="nav-link"><i class="fa-solid fa-user"></i> Tentang</a></li>
+          <li><a href="#tools" class="nav-link"><i class="fa-solid fa-layer-group"></i> Software & Keahlian</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section (Beranda) -->
+  <section id="home" class="hero-section page-section active-section">
+    <div class="hero-content">
+      <div class="badge-status">
+        <span class="status-pulse"></span> Creative Designer & Video Specialist
+      </div>
+      <h1 class="hero-title">
+        Halo, Saya <span class="gradient-text">Dhanu</span>.<br>
+        Graphic Designer & Video Editor.
+      </h1>
+      <p class="hero-subtitle">
+        Menghadirkan identitas visual yang tajam melalui manipulasi grafis presisi, desain vektor terstruktur, serta
+        editing video sinematik dengan ritme cerita yang kuat.
+      </p>
+      <div class="hero-cta-group">
+        <a href="#about" class="btn-primary">
+          <i class="fa-solid fa-user"></i> Tentang Saya
+        </a>
+        <a href="#tools" class="btn-outline">
+          <i class="fa-solid fa-layer-group"></i> Eksplor Software & Skill
+        </a>
+      </div>
+
+      <!-- Kartu Pintas Navigasi di Beranda -->
+      <div class="hero-quick-cards">
+        <a href="#about" class="quick-card">
+          <div class="quick-card-icon"><i class="fa-solid fa-id-badge"></i></div>
+          <div class="quick-card-info">
+            <h4>Profil & Filosofi</h4>
+            <p>Kenali dedikasi & pengalaman karya</p>
+          </div>
+          <i class="fa-solid fa-chevron-right arrow-icon"></i>
+        </a>
+        <a href="#tools" class="quick-card">
+          <div class="quick-card-icon"><i class="fa-solid fa-cubes"></i></div>
+          <div class="quick-card-info">
+            <h4>Software & Toolkit</h4>
+            <p>Photoshop, Corel, AE & Premiere Pro</p>
+          </div>
+          <i class="fa-solid fa-chevron-right arrow-icon"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Visual Profile Card -->
+    <div class="hero-visual">
+      <div class="profile-card">
+        <img src="logo.png" alt="Dhanu Logo" class="profile-logo-img">
+        <h3>Dhanu</h3>
+        <p>Visual Crafter & Video Storyteller</p>
+        <div class="tags-row">
+          <span class="mini-tag">Vector</span>
+          <span class="mini-tag">Motion</span>
+          <span class="mini-tag">Color Grading</span>
+        </div>
+      </div>
+
+      <!-- Floating Badges -->
+      <div class="floating-badge badge-top neon-badge-blue">
+        <div class="neon-border"></div>
+        <div class="badge-icon-wrap badge-icon-blue">
+          <i class="fa-solid fa-pen-nib"></i>
+        </div>
+        <div class="badge-text">
+          <strong>Precision Graphic</strong>
+          <span class="badge-tools">Ps <span class="badge-dot">•</span> CorelDRAW</span>
+        </div>
+      </div>
+
+      <div class="floating-badge badge-bottom neon-badge-pink">
+        <div class="neon-border"></div>
+        <div class="badge-icon-wrap badge-icon-pink">
+          <i class="fa-solid fa-clapperboard"></i>
+        </div>
+        <div class="badge-text">
+          <strong>Dynamic Motion</strong>
+          <span class="badge-tools">Pr <span class="badge-dot">•</span> After Effects</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Tentang Dhanu -->
+  <section id="about" class="section-wrapper page-section">
+    <div class="about-container">
+      <div class="about-text">
+        <span class="sub-heading">Filosofi & Profil</span>
+        <h2 class="main-heading">Kreativitas Bertemu Ketelitian Teknis</h2>
+        <p>
+          Halo! Saya <strong>Dhanu</strong>. Saya mendedikasikan keahlian saya dalam dunia seni visual untuk membantu
+          menciptakan karya grafis dan video yang berkelas serta memiliki karakter kuat.
+        </p>
+        <p>
+          Bagi saya, perpaduan antara desain statis yang detail di <em>Photoshop & CorelDRAW</em> serta alur cerita yang
+          hidup di <em>Premiere Pro & After Effects</em> adalah kombinasi ideal untuk menghasilkan karya visual yang
+          berdaya pikat tinggi.
+        </p>
+
+        <div class="stats-grid">
+          <div class="stat-box">
+            <h4 class="counter" data-target="50">0</h4>
+            <p>Projek Selesai</p>
+          </div>
+          <div class="stat-box">
+            <h4 class="counter" data-target="3">0</h4>
+            <p>Tahun Pengalaman</p>
+          </div>
+          <div class="stat-box">
+            <h4 class="counter" data-target="100">0</h4>
+            <p>% Komitmen Kualitas</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-highlights">
+        <div class="highlight-item">
+          <i class="fa-solid fa-check"></i>
+          <div>
+            <strong>Karakter Desain Otentik</strong>
+            <p>Setiap konsep visual dirancang terstruktur dan disesuaikan dengan kebutuhan estetika modern.</p>
+          </div>
+        </div>
+        <div class="highlight-item">
+          <i class="fa-solid fa-check"></i>
+          <div>
+            <strong>Color Grading Sinematik</strong>
+            <p>Memperkuat nuansa emosional video melalui pemilihan tone warna yang harmonis.</p>
+          </div>
+        </div>
+        <div class="highlight-item">
+          <i class="fa-solid fa-check"></i>
+          <div>
+            <strong>Output Resolusi Tinggi</strong>
+            <p>Dukungan format render video tajam hingga 4K dan vektor bebas pecah untuk segala kebutuhan.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigasi Bawah Halaman Tentang -->
+    <div class="page-nav-bar">
+      <a href="#home" class="btn-outline">
+        <i class="fa-solid fa-arrow-left"></i> Kembali ke Beranda
+      </a>
+      <a href="#tools" class="btn-primary">
+        Eksplor Software & Keahlian <i class="fa-solid fa-arrow-right"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- Section Software & Tools (Photoshop, CorelDRAW, After Effects, Premiere Pro) -->
+  <section id="tools" class="section-wrapper page-section">
+    <div class="section-title-wrap">
+      <span class="sub-heading">Keahlian & Toolkit</span>
+      <h2 class="main-heading">Software Yang Saya Kuasai</h2>
+      <p class="section-desc">Didukung oleh perangkat lunak standar industri kreatif untuk menghasilkan visual dan video
+        dengan standar terbaik.</p>
+    </div>
+
+    <div class="tools-grid">
+      <!-- 1. Adobe Photoshop -->
+      <div class="tool-card ps-card" title="Klik untuk fokus software">
+        <div class="tool-logo-box">
+          <!-- Logo Resmi Adobe Photoshop (SVG) -->
+          <svg viewBox="0 0 100 100" class="svg-logo">
+            <rect width="100" height="100" rx="20" fill="#001e36" />
+            <rect x="2" y="2" width="96" height="96" rx="18" stroke="#31a8ff" stroke-width="4" />
+            <path d="M26 31h18c7.5 0 13 4 13 11s-5.5 11-13 11h-9v17H26V31zm9 15h9c3.5 0 6-2 6-5s-2.5-5-6-5h-9v10z"
+              fill="#31a8ff" />
+            <path
+              d="M60.5 57.5c2.5-1.2 5.5-1.8 8.5-1.8 4 0 6 1.8 6 4.5 0 3-3 4-7.5 5.5-6.5 2-9 5.5-9 10.5 0 6.5 5.5 11 14 11 3.5 0 6.8-.7 9-1.8l-1.8-6.5c-2 1-4.5 1.5-7.2 1.5-4 0-6.5-1.8-6.5-4.5 0-3 3-4 8-5.5 6.5-2 8.5-5.5 8.5-10.2 0-6.5-5-10.5-13.5-10.5-4 0-7.5.8-9.8 1.8l1.8 6z"
+              fill="#31a8ff" />
+          </svg>
+        </div>
+        <h3>Adobe Photoshop</h3>
+        <span class="tool-sub">Raster & Photo Manipulation</span>
+        <p>Manipulasi visual foto yang realistis, retouching, poster promosi, komposisi grafis, dan digital imaging
+          beresolusi tinggi.</p>
+        <div class="skill-meter">
+          <div class="skill-labels">
+            <span>Kemahiran</span>
+            <span class="val-ps">95%</span>
+          </div>
+          <div class="meter-bar">
+            <div class="meter-fill fill-ps"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2. CorelDRAW -->
+      <div class="tool-card cdr-card" title="Klik untuk fokus software">
+        <div class="tool-logo-box">
+          <!-- Logo Resmi CorelDRAW Balon Udara (SVG) -->
+          <svg viewBox="0 0 100 100" class="svg-logo">
+            <rect width="100" height="100" rx="20" fill="#082313" />
+            <rect x="2" y="2" width="96" height="96" rx="18" stroke="#00c853" stroke-width="4" />
+            <path d="M50 18C33 18 24 33 26 50c1.5 13 14 26 21 31h6c7-5 19.5-18 21-31 2-17-7-32-24-32z" fill="#00e676" />
+            <path d="M50 18c-8 0-14 14-14 32 0 13 7 26 14 31 7-5 14-18 14-31 0-18-6-32-14-32z" fill="#00b0ff" />
+            <path d="M50 18c-3 0-5 14-5 32 0 13 2.5 26 5 31 2.5-5 5-18 5-31 0-18-2-32-5-32z" fill="#ffd600" />
+            <rect x="44" y="81" width="12" height="4" rx="2" fill="#fff" />
+          </svg>
+        </div>
+        <h3>CorelDRAW</h3>
+        <span class="tool-sub">Vector & Percetakan</span>
+        <p>Desain vektor presisi, perancangan identitas logo, tata letak brosur, banner, kemasan, serta file siap cetak
+          format CMYK.</p>
+        <div class="skill-meter">
+          <div class="skill-labels">
+            <span>Kemahiran</span>
+            <span class="val-cdr">90%</span>
+          </div>
+          <div class="meter-bar">
+            <div class="meter-fill fill-cdr"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3. Adobe After Effects -->
+      <div class="tool-card ae-card" title="Klik untuk fokus software">
+        <div class="tool-logo-box">
+          <!-- Logo Resmi Adobe After Effects (SVG) -->
+          <svg viewBox="0 0 100 100" class="svg-logo">
+            <rect width="100" height="100" rx="20" fill="#1b002c" />
+            <rect x="2" y="2" width="96" height="96" rx="18" stroke="#a855f7" stroke-width="4" />
+            <path d="M34 31h-8L14 69h8.5l2.8-8h15.4l2.8 8H52L40 31zm-6.5 23l5-15 5 15h-10z" fill="#a855f7" />
+            <path
+              d="M68 47c-8 0-13 5.5-13 13s5 13 13 13c5.5 0 9.5-2.5 11.5-6.5l-6-3.5c-1 2-3 3.5-5.5 3.5-3.5 0-5.8-2.5-6-6h20c.2-1 .2-2.5.2-3.5 0-6.5-4.5-10-10.2-10zm-6 9.5c.5-3 2.5-5 6-5s5.5 2 6 5h-12z"
+              fill="#a855f7" />
+          </svg>
+        </div>
+        <h3>Adobe After Effects</h3>
+        <span class="tool-sub">Motion Graphic & Visual Effect</span>
+        <p>Pembuatan kinetic typography, animasi logo 2D/3D, transisi khusus, efek visual (VFX), dan compositing motion
+          dinamis.</p>
+        <div class="skill-meter">
+          <div class="skill-labels">
+            <span>Kemahiran</span>
+            <span class="val-ae">88%</span>
+          </div>
+          <div class="meter-bar">
+            <div class="meter-fill fill-ae"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4. Adobe Premiere Pro -->
+      <div class="tool-card pr-card" title="Klik untuk fokus software">
+        <div class="tool-logo-box">
+          <!-- Logo Resmi Adobe Premiere Pro (SVG) -->
+          <svg viewBox="0 0 100 100" class="svg-logo">
+            <rect width="100" height="100" rx="20" fill="#20002b" />
+            <rect x="2" y="2" width="96" height="96" rx="18" stroke="#e879f9" stroke-width="4" />
+            <path d="M25 31h18c7.5 0 13 4 13 11s-5.5 11-13 11h-9v17H25V31zm9 15h9c3.5 0 6-2 6-5s-2.5-5-6-5h-9v10z"
+              fill="#e879f9" />
+            <path
+              d="M57 48h7.5v3.5c1.5-2.5 4.5-4 7.5-4 2 0 3.5.5 4.5 1l-2 7.5c-1-.5-2.2-.8-3.8-.8-3.5 0-6.2 2.8-6.2 7V70H57V48z"
+              fill="#e879f9" />
+          </svg>
+        </div>
+        <h3>Adobe Premiere Pro</h3>
+        <span class="tool-sub">Video Editing & Grading</span>
+        <p>Penyuntingan alur cerita video, sinkronisasi audio, color grading sinematik, video YouTube, dan format konten
+          vertikal.</p>
+        <div class="skill-meter">
+          <div class="skill-labels">
+            <span>Kemahiran</span>
+            <span class="val-pr">92%</span>
+          </div>
+          <div class="meter-bar">
+            <div class="meter-fill fill-pr"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigasi Bawah Halaman Software -->
+    <div class="page-nav-bar">
+      <a href="#about" class="btn-outline">
+        <i class="fa-solid fa-arrow-left"></i> Kembali ke Tentang
+      </a>
+      <a href="#home" class="btn-primary">
+        <i class="fa-solid fa-house"></i> Kembali ke Beranda
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2026 <strong>Dhanu</strong> • Graphic Designer & Video Editor. Crafted with precision & passion.</p>
+      <div class="footer-links">
+        <a href="#home">Beranda</a>
+        <a href="#about">Tentang</a>
+        <a href="#tools">Software</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Menghubungkan ke File JavaScript style.js -->
+  <script src="style.js"></script>
+</body>
+
+</html>
